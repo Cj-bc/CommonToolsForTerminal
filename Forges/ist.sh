@@ -17,7 +17,7 @@ done
 if [ $# -lt 2 ]
 then
 	echo Plz_2_Arguments.
-	clog ist Fail(NEA)
+	clog ist Fail.NEA
 	exit 2
 fi
 

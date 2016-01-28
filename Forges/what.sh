@@ -13,7 +13,7 @@ Dir="$HOME/CjP/what"
 
 #============================== Main ===========================================
 
-if [$# -eq 0]
+if [ $# -eq 0 ]
 then
 	less $HOME/CjP/etc/CPs.data
 	clog what Success
@@ -27,6 +27,6 @@ then
 	exit 0
 else
 	echo No_Data.
-	clog what Fail(ND)
+	clog what Fail.ND
 	exit 1
 fi

@@ -19,7 +19,7 @@ done
 if [ -n "$Add" ] && [ $# -lt 2 ]
 then
 	echo Please_Enter_2_Arguments.
-	clog dic Fail(NEA)
+	clog dic Fail.NEA
 	exit 1
 fi
 
@@ -31,7 +31,7 @@ then
 	if [ $? != 0]
 	then
 		echo Err.
-		clog dic Fail(Add_Process)
+		clog dic Fail.Add_Process
 		exit 1
 	fi
 fi
@@ -45,12 +45,12 @@ then
 		less $WorkDir/$Lang/$Word.dic
 	else
 		echo No_Toppic.
-		clog dic Fail(ND:Toppic)
+		clog dic Fail.ND:Toppic
 	fi
 else
 	echo No_Dictionary.
 	echo Please_add_it.
-	clog dic Fail(ND:Dictionary)
+	clog dic Fail.ND:Dictionary
 fi
 
 exit 0

@@ -9,8 +9,8 @@ To=$2
 
 if [ $# -lt 2 ]
 then
-	ehco please_2_Arguments.
-	clog add Fail(NEA)
+	echo please_2_Arguments.
+	clog add Fail.NEA
 	exit 1
 fi
 

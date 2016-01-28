@@ -6,7 +6,7 @@ Status=$2
 if [ $# -lt 2 ]
 then
 	echo Plz_more_Argument.
-	clog clog Fail(NEA)
+	clog clog Fail.NEA
 	exit 1
 fi
 

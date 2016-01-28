@@ -8,7 +8,7 @@ Type=$2
 if [ $# -lt 2 ]
 then
 	echo Plz_2_Arguments.
-	clog tra Fail(NEA)
+	clog tra Fail.NEA
 	exit 1
 fi
 
@@ -21,6 +21,6 @@ then
 	clog tra Success
 	exit 0
 else
-	clog tra Fail(Final_process)
+	clog tra Fail.Final_process
 	exit 1
 fi

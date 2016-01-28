@@ -10,7 +10,7 @@ To=$2
 if [$# < 2]
 then
 	echo Plz_2_argument.
-	clog upd Fail(NEA)
+	clog upd Fail.NEA
 	exit 1
 fi
 
@@ -25,7 +25,7 @@ then
 		clog apd Success
 		exit 0
 	else
-		clog apd Fail(MainProcess)
+		clog apd Fail.MainProcess
 		exit 1
 	fi
 fi

@@ -6,7 +6,7 @@ Temp=$1
 FName=$2
 Dir="$HOME/CjP/Stmp/Temp"
 
-while getops a:n: OPT
+while getopts a:n: OPT
 do
 	case $OPT in
 		a) Add="$OPTARG" ;;
@@ -16,15 +16,15 @@ done
 
 #======================= Check_Option_and_err ==================================
 
-if [ -n "$Add"]
+if [ -n "$Add" ]
 then
 	add $Add $Dir/ $Name
 fi
 
-if [$# -lt 2]
+if [ $# -lt 2 ]
 then
 	echo Plz_2_Arguments.
-	clog utmp Fail(NEA)
+	clog utmp Fail.NEA
 	exit 1
 fi
 
@@ -37,7 +37,7 @@ then
 else
 	echo Sorry,But_there's_no_Template_as_that.
 	echo Plz_Add.
-	clog utmp fail(ND:Template)
+	clog utmp fail.ND:Template
 	exit 1
 fi
 
