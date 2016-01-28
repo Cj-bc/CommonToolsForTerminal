@@ -1,0 +1,7 @@
+				clog
+
+	Form
+		clog [CP_Name] [Status]
+
+	Function
+		 Write log.

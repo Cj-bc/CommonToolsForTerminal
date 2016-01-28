@@ -1,0 +1,10 @@
+type				unsigned int
+
+		1.form
+			unsigned int a;
+
+		2.function
+			Make new unsigned int Variable
+
+		3.comment
+			Range : Depend System.

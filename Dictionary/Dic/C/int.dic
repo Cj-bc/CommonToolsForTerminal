@@ -1,0 +1,11 @@
+type				int(integer)
+
+		1.form
+			int a;
+
+		2.function
+			make new int variable.
+
+		3.comment
+		
+			Range : Depend System.

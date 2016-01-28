@@ -1,0 +1,8 @@
+				add
+
+	Form
+		add [Data_File] [To_directory] [File's_name]
+
+	Function
+		add more data_file for CP which has already added.
+		Both ok Directory and File.

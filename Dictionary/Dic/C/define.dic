@@ -1,0 +1,11 @@
+macro				define
+		1.form
+			#define A B
+
+		2.function
+			change A to B before compile
+
+		3.comment
+			it don't need ';'.
+			if write it,change to B include it.
+

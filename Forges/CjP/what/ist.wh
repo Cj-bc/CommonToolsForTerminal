@@ -1,0 +1,19 @@
+				ist
+
+	Form
+		ist [CP_name,etc] [find directory]
+		ist -s [Special_file_name]
+
+	Function
+		 Check there's the CP etc in selected directory.
+		This's looks like Find.
+		The most different point is this CP can select
+		special option for my P.
+
+	Option
+		-s	 select the special option.
+			this option receive Only that
+				PF	(mean Poject file [$HOME/CjP])
+				pf	(same mean)
+
+	Comment		

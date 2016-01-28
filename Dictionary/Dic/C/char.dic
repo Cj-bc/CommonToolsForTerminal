@@ -1,0 +1,11 @@
+type				char
+
+		1.form
+			char a;
+
+		2.function
+			Make new char Variable.
+
+		3.comment
+			Range : -128 ~ 127
+			size : 8 bit

@@ -1,0 +1,11 @@
+type				unsigned char
+
+		1.form
+			unsigned char a;
+
+		2.function
+			Make new unsigned-char Variable.
+
+		3.comment
+			Range : 0 ~ 255
+			size : 8

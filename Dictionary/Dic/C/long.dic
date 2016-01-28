@@ -1,0 +1,11 @@
+type				long
+
+		1.form
+			long a;
+
+		2.function
+			Make new long Variable.
+
+		3.comment
+			Range : -2,147,483,648 ~ 2,147,483,647
+			size : 32 bit

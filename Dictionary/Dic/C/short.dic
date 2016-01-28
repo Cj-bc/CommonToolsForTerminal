@@ -1,0 +1,10 @@
+type				short
+		1.form
+			short a;
+
+		2.function
+			Make new short Variable.
+
+		3.comment
+			Range : -32,768 ~ 32,767
+			size : 16

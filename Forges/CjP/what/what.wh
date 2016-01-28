@@ -1,0 +1,12 @@
+				what
+
+	Form
+		what [CP_name]
+		what
+
+	Function
+		 This is help as "man" or "help" for my P.
+		Open each help text(.wh File) when use this.
+
+		 If u use this with no data,
+		Show All added CP name.

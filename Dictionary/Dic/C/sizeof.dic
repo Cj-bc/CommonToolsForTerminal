@@ -1,0 +1,13 @@
+operation-letter		sizeof()
+
+		1.form
+			int a;
+			a = sizeof(type-name);
+				#or#
+			int b;
+			a = sizeof(b);
+
+		2.function
+			get bite-size is needed by variable or type.
+
+		3.comment

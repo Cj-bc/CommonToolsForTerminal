@@ -1,0 +1,12 @@
+type				unsigned long
+
+		1.form
+			unsigned long a;
+
+		2.function
+			Make new unsigned long Variable.
+
+		3comment
+
+			Range : 0 ~ 4,294,967,265
+			size : 32

@@ -1,0 +1,13 @@
+type				float
+
+		1.form
+			float a;
+
+		2.function
+			Make new float Variable.
+			this's real-number.
+
+		3.comment
+			Range(about) : -3.4 * 10^38 ~ 3.4 * 10^38
+			size : 32 bit
+

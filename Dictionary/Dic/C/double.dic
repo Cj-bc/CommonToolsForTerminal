@@ -1,0 +1,12 @@
+type				double
+
+		1.form
+			double a;
+
+		2.function
+			Make new double Variable.
+			This's real-Variable.
+
+		3.comment
+			Range(about) : -1.7 * 10^308 ~ 1.7 * 10^308
+			size :64

@@ -1,0 +1,13 @@
+macro				include
+
+	1.form
+		#include <include_file_name>
+			or
+		#include "include_file_name"
+
+	2.function
+		include other file.
+
+	3.comment
+		if included file is made by u,use ""
+

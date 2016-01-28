@@ -1,0 +1,12 @@
+				ld
+
+	Form
+		ld [Load_File]	[Command-Program's_name]
+		
+	Function
+		 Load new Command-Program which was made by Cj.
+		First time to use this command,
+		set up directory for use my Programs.
+
+	Comments
+		
